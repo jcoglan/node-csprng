@@ -1,6 +1,6 @@
 { "name"            : "csprng"
 , "description"     : "Secure random numbers of any size in any base"
-, "homepage"        : "http://github.com/jcoglan/csprng"
+, "homepage"        : "http://github.com/jcoglan/node-csprng"
 , "author"          : "James Coglan <jcoglan@gmail.com> (http://jcoglan.com/)"
 , "keywords"        : ["crypto", "math", "random", "security"]
 , "license"         : "MIT"
@@ -11,9 +11,9 @@
 , "dependencies"    : {"sequin": ""}
 
 , "repository"      : { "type"  : "git"
-                      , "url"   : "git://github.com/jcoglan/csprng.git"
+                      , "url"   : "git://github.com/jcoglan/node-csprng.git"
                       }
 
-, "bugs"            : "http://github.com/jcoglan/csprng/issues"
+, "bugs"            : "http://github.com/jcoglan/node-csprng/issues"
 }
 
