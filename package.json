@@ -5,9 +5,10 @@
 , "keywords"        : ["crypto", "math", "random", "security"]
 , "license"         : "MIT"
 
-, "version"         : "0.1.2"
+, "version"         : "0.1.3"
 , "engines"         : {"node": ">=0.6.0"}
 , "main"            : "./lib/csprng"
+, "types"           : "./lib/csprng.d.ts"
 , "dependencies"    : {"sequin": "*"}
 
 , "repository"      : { "type"  : "git"
