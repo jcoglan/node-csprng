@@ -1,34 +1,39 @@
 {
-          "name": "csprng",
-          "description": "Secure random numbers of any size in any base",
-          "homepage": "http://github.com/jcoglan/node-csprng",
-          "author": "James Coglan <jcoglan@gmail.com> (http://jcoglan.com/)",
-          "keywords": [
-                    "crypto",
-                    "math",
-                    "random",
-                    "security"
-          ],
-          "license": "MIT",
-          "version": "0.1.2",
-          "engines": {
-                    "node": ">=0.6.0"
-          },
-          "main": "./lib/csprng",
-          "dependencies": {
-                    "sequin": "*"
-          },
-          "devDependencies": {
-            "eslint": "^4.19.1",
-            "tap-summary": "^4.0.0",
-            "tape": "4.9.0"
-          },
-          "scripts": {
-            "test": "node tests/tape.js | tap-summary"
-          },
-          "repository": {
-                    "type": "git",
-                    "url": "git://github.com/jcoglan/node-csprng.git"
-          },
-          "bugs": "http://github.com/jcoglan/node-csprng/issues"
+    "name": "csprng",
+    "version": "0.2.0",
+    "description": "Secure random numbers of any size in any base",
+    "author": "James Coglan <jcoglan@gmail.com> (http://jcoglan.com/)",
+    "license": "MIT",
+    "main": "lib/csprng.js",
+    "homepage": "http://github.com/jcoglan/node-csprng",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/jcoglan/node-csprng.git"
+    },
+    "bugs": {
+        "url": "http://github.com/jcoglan/node-csprng/issues"
+    },
+    "scripts": {
+        "prestart": "npm install",
+        "lintfix": "./node_modules/.bin/eslint --fix **/*.js",
+        "lint": "./node_modules/.bin/eslint **/*.js",
+        "test": "node tests/tape.js | tap-summary"
+    },
+    "keywords": [
+        "crypto",
+        "math",
+        "random",
+        "security"
+    ],
+    "engines": {
+        "node": ">=0.6.0"
+    },
+    "dependencies": {
+        "sequin": "*"
+    },
+    "devDependencies": {
+        "eslint": "^4.19.1",
+        "tap-summary": "^4.0.0",
+        "tape": "4.9.0"
+    }
 }
