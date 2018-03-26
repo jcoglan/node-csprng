@@ -1,7 +1,7 @@
 # csprng
 
 Generates secure random numbers using `crypto.randomBytes()`. Numbers can be of
-any magnitude and in any base from 2 to 36.
+any magnitude and in any base from 2 to 64.
 
 
 ## Installation
@@ -22,7 +22,7 @@ Call the function passing the number of required bits, and the radix of the
 output.
 
 ```js
-var rand = require('csprng');
+const rand = require('csprng');
 
 rand(160, 36) // -> 'tq2pdxrblkbgp8vt8kbdpmzdh1w8bex'
 ```
