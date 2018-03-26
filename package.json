@@ -16,8 +16,10 @@
           },
           "main": "./lib/csprng",
           "dependencies": {
-                    "eslint": "^4.19.1",
                     "sequin": "*"
+          },
+          "devDependencies": {
+            "eslint": "^4.19.1",
           },
           "repository": {
                     "type": "git",
