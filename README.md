@@ -18,6 +18,16 @@ $ npm install csprng
 $ yarn add csprng
 ```
 
+### TypeScript Version
+
+Install `csprng.d.t` by using this:
+
+```bash 
+$ npm install @types/csprng
+-OR-
+$ yarn add @types/csprng
+```
+
 ## Usage
 
 Call the function passing the number of required bits, and the radix of the
