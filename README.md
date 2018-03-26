@@ -6,10 +6,15 @@ any magnitude and in any base from 2 to 36.
 
 ## Installation
 
-```
+using npm
+```bash
 $ npm install csprng
 ```
 
+using yarn
+```bash
+$ yarn add csprng
+```
 
 ## Usage
 
