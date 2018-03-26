@@ -14,10 +14,7 @@ any magnitude and in any base from 2 to 64.
 using npm
 ```bash
 $ npm install csprng
-```
-
-using yarn
-```bash
+-OR-
 $ yarn add csprng
 ```
 
@@ -38,23 +35,29 @@ rand(160, 36) // -> 'tq2pdxrblkbgp8vt8kbdpmzdh1w8bex'
 2. Clone repository locally
 3. Install all dependencies
 
-```npm install
+```bash
+$ npm install
 -OR-
-yarn install
+$ yarn install
 ```
+
 4. Make changes
 5. Make sure eslint checks out
-```
-npm run lint
+
+```bash
+$ npm run lint
 -OR-
-yarn lint
+$ yarn lint
 ```
+
 6. Make sure tests succeed
-```
-npm run test
+
+```bash
+$ npm run test
 -OR-
-yarn test
+$ yarn test
 ```
+
 7. Commit changes
 8. Create Pull Request
 
