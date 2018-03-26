@@ -1,5 +1,10 @@
 # csprng
 
+[![NPM](https://nodei.co/npm/csprng.png)](https://nodei.co/npm/csprng/)
+
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)](https://github.com/jcoglan/node-csprng/blob/master/LICENSE.md) 
+[![npm](https://img.shields.io/npm/dw/localeval.svg?style=for-the-badge)](https://www.npmjs.com/package/csprng)
+
 Generates secure random numbers using `crypto.randomBytes()`. Numbers can be of
 any magnitude and in any base from 2 to 64.
 
@@ -27,6 +32,31 @@ const rand = require('csprng');
 rand(160, 36) // -> 'tq2pdxrblkbgp8vt8kbdpmzdh1w8bex'
 ```
 
+## Contribution
+
+1. Fork the repository
+2. Clone repository locally
+3. Install all dependencies
+
+```npm install
+-OR-
+yarn install
+```
+4. Make changes
+5. Make sure eslint checks out
+```
+npm run lint
+-OR-
+yarn lint
+```
+6. Make sure tests succeed
+```
+npm run test
+-OR-
+yarn test
+```
+7. Commit changes
+8. Create Pull Request
 
 ## License
 
