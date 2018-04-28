@@ -1,9 +1,19 @@
-# csprng
-
-[![NPM](https://nodei.co/npm/csprng.png)](https://nodei.co/npm/csprng/)
-
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)](https://github.com/jcoglan/node-csprng/blob/master/LICENSE.md) 
-[![npm](https://img.shields.io/npm/dw/localeval.svg?style=for-the-badge)](https://www.npmjs.com/package/csprng)
+<div align="center">
+  <h1> csprng </h1>
+      <p>
+          <a href="https://github.com/jcoglan/node-csprng/blob/master/LICENSE.md"><!--
+              --><img src="https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge" alt="license" /><!--
+      --></a><!--
+      --><a href="https://www.npmjs.com/package/csprng"><!-- 
+          --><img src="https://img.shields.io/npm/dw/localeval.svg?style=for-the-badge" alt="npm" /><!--
+      --></a>
+      </p>
+      <p>
+          <a href="https://nodei.co/npm/csprng/">
+              <img src="https://nodei.co/npm/csprng.png" alt="NPM" />
+          </a>
+      </p>
+</div>
 
 Generates secure random numbers using `crypto.randomBytes()`. Numbers can be of
 any magnitude and in any base from 2 to 64.
