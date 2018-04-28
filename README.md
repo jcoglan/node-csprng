@@ -1,15 +1,42 @@
-# csprng
+<div align="center">
+  <h1> csprng </h1>
+      <p>
+          <a href="https://github.com/jcoglan/node-csprng/blob/master/LICENSE.md"><!--
+              --><img src="https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge" alt="license" /><!--
+      --></a><!--
+      --><a href="https://www.npmjs.com/package/csprng"><!-- 
+          --><img src="https://img.shields.io/npm/dw/localeval.svg?style=for-the-badge" alt="npm" /><!--
+      --></a>
+      </p>
+      <p>
+          <a href="https://nodei.co/npm/csprng/">
+              <img src="https://nodei.co/npm/csprng.png" alt="NPM" />
+          </a>
+      </p>
+</div>
 
 Generates secure random numbers using `crypto.randomBytes()`. Numbers can be of
-any magnitude and in any base from 2 to 36.
+any magnitude and in any base from 2 to 64.
 
 
 ## Installation
 
-```
+using npm
+```bash
 $ npm install csprng
+-OR-
+$ yarn add csprng
 ```
 
+### TypeScript Version
+
+Install `csprng.d.t` by using this:
+
+```bash 
+$ npm install @types/csprng
+-OR-
+$ yarn add @types/csprng
+```
 
 ## Usage
 
@@ -17,11 +44,42 @@ Call the function passing the number of required bits, and the radix of the
 output.
 
 ```js
-var rand = require('csprng');
+const rand = require('csprng');
 
 rand(160, 36) // -> 'tq2pdxrblkbgp8vt8kbdpmzdh1w8bex'
 ```
 
+## Contribution
+
+1. Fork the repository
+2. Clone repository locally
+3. Install all dependencies
+
+```bash
+$ npm install
+-OR-
+$ yarn install
+```
+
+4. Make changes
+5. Make sure eslint checks out
+
+```bash
+$ npm run lint
+-OR-
+$ yarn lint
+```
+
+6. Make sure tests succeed
+
+```bash
+$ npm run test
+-OR-
+$ yarn test
+```
+
+7. Commit changes
+8. Create Pull Request
 
 ## License
 
